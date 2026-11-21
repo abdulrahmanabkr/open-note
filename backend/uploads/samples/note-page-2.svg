@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1600" width="1200" height="1600" role="img" aria-label="Sample note page two">
+  <rect width="1200" height="1600" fill="#fbfaf7"/>
+  <rect x="0" y="0" width="1200" height="150" fill="#152a4a"/>
+  <circle cx="88" cy="75" r="30" fill="#f2b544"/>
+  <path d="M78 61h20a6 6 0 0 1 6 6v26l-16-7-16 7V67a6 6 0 0 1 6-6z" fill="#152a4a"/>
+  <text x="140" y="68" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#ffffff">Worked Examples</text>
+  <text x="140" y="106" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#a9c2e8" letter-spacing="1">OPENNOTE · LECTURE SERIES · PAGE 2</text>
+
+  <text x="90" y="235" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#c26b2c" letter-spacing="3">GUIDED PRACTICE</text>
+  <text x="90" y="305" font-family="Georgia, 'Times New Roman', serif" font-size="46" fill="#16221f">From the lecture board</text>
+  <rect x="90" y="335" width="150" height="5" rx="2" fill="#f2b544"/>
+
+  <text x="90" y="405" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#33403c">Work through each example before checking the solution. The aim</text>
+  <text x="90" y="443" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#33403c">is to recognise the pattern, not to memorise the answer.</text>
+
+  <g>
+    <rect x="90" y="500" width="1020" height="250" rx="14" fill="#ffffff" stroke="#dfe7e4" stroke-width="2"/>
+    <circle cx="140" cy="550" r="24" fill="#e8f2ef"/>
+    <text x="140" y="559" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="23" font-weight="bold" fill="#0f4c46">1</text>
+    <text x="185" y="558" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#16221f">Two-sum on a sorted array</text>
+    <text x="120" y="610" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#3c4a46">Use two pointers: one at the start, one at the end. If the sum is</text>
+    <text x="120" y="646" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#3c4a46">too small, move the left pointer in; if too large, move the right</text>
+    <text x="120" y="682" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#3c4a46">pointer out. Each step eliminates a candidate. O(n), not O(n²).</text>
+    <text x="120" y="724" font-family="'Courier New', monospace" font-size="21" fill="#0f4c46">while (lo &lt; hi) { sum = a[lo] + a[hi]; ... }</text>
+  </g>
+
+  <g>
+    <rect x="90" y="780" width="1020" height="230" rx="14" fill="#ffffff" stroke="#dfe7e4" stroke-width="2"/>
+    <circle cx="140" cy="830" r="24" fill="#fdf0d9"/>
+    <text x="140" y="839" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="23" font-weight="bold" fill="#a86612">2</text>
+    <text x="185" y="838" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#16221f">Detecting a cycle in a list</text>
+    <text x="120" y="890" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#3c4a46">Floyd’s tortoise and hare: advance one pointer by one node and</text>
+    <text x="120" y="926" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#3c4a46">the other by two. If they meet, a cycle exists. If the fast pointer</text>
+    <text x="120" y="962" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#3c4a46">reaches null, the list is acyclic. O(n) time, O(1) space.</text>
+  </g>
+
+  <g>
+    <rect x="90" y="1040" width="1020" height="230" rx="14" fill="#ffffff" stroke="#dfe7e4" stroke-width="2"/>
+    <circle cx="140" cy="1090" r="24" fill="#eae7f7"/>
+    <text x="140" y="1099" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="23" font-weight="bold" fill="#4f3f94">3</text>
+    <text x="185" y="1098" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#16221f">Choosing a hash table size</text>
+    <text x="120" y="1150" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#3c4a46">Pick a prime close to 2× the expected item count, keep the load</text>
+    <text x="120" y="1186" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#3c4a46">factor below 0.7, and resize before collisions dominate. Probe</text>
+    <text x="120" y="1222" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#3c4a46">sequences must cover the whole table when using open addressing.</text>
+  </g>
+
+  <rect x="90" y="1320" width="1020" height="140" rx="14" fill="#e8f2ef" stroke="#bcd8d1" stroke-width="2"/>
+  <text x="120" y="1365" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#0f4c46" letter-spacing="2">REMINDER</text>
+  <text x="120" y="1408" font-family="Georgia, 'Times New Roman', serif" font-size="25" fill="#16221f">State the invariant before you write the loop.</text>
+  <text x="120" y="1442" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#3c4a46">Most marks in this course are lost at the invariant, not the syntax.</text>
+
+  <rect x="90" y="1510" width="1020" height="2" fill="#dfe7e4"/>
+  <text x="90" y="1552" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#85938f">Shared on OpenNote · Sample preview</text>
+  <text x="1110" y="1552" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#85938f">2 / 3</text>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1600" width="1200" height="1600" role="img" aria-label="Sample note page three">
+  <rect width="1200" height="1600" fill="#fbfaf7"/>
+  <rect x="0" y="0" width="1200" height="150" fill="#5a2e1c"/>
+  <circle cx="88" cy="75" r="30" fill="#f2b544"/>
+  <path d="M78 61h20a6 6 0 0 1 6 6v26l-16-7-16 7V67a6 6 0 0 1 6-6z" fill="#5a2e1c"/>
+  <text x="140" y="68" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#ffffff">Revision Questions</text>
+  <text x="140" y="106" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#e3c6b3" letter-spacing="1">OPENNOTE · LECTURE SERIES · PAGE 3</text>
+
+  <text x="90" y="235" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#c26b2c" letter-spacing="3">TEST YOURSELF</text>
+  <text x="90" y="305" font-family="Georgia, 'Times New Roman', serif" font-size="46" fill="#16221f">Five questions, no notes</text>
+  <rect x="90" y="335" width="150" height="5" rx="2" fill="#f2b544"/>
+
+  <text x="90" y="405" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#33403c">Cover the answers. Write your reasoning first — the working earns</text>
+  <text x="90" y="443" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#33403c">more than the final line in the marking scheme.</text>
+
+  <g font-family="Helvetica, Arial, sans-serif">
+    <g>
+      <rect x="90" y="500" width="1020" height="160" rx="12" fill="#ffffff" stroke="#dfe7e4" stroke-width="2"/>
+      <text x="120" y="548" font-family="Georgia, 'Times New Roman', serif" font-size="27" fill="#16221f">Q1. Why is a linked list insertion O(1)?</text>
+      <text x="120" y="592" font-size="21" fill="#6b7975">Hint: what does the pointer already tell you?</text>
+      <text x="120" y="626" font-size="21" fill="#6b7975">(3 marks)</text>
+    </g>
+
+    <g>
+      <rect x="90" y="690" width="1020" height="160" rx="12" fill="#ffffff" stroke="#dfe7e4" stroke-width="2"/>
+      <text x="120" y="738" font-family="Georgia, 'Times New Roman', serif" font-size="27" fill="#16221f">Q2. Compare a stack and a queue.</text>
+      <text x="120" y="782" font-size="21" fill="#6b7975">Give one real example of each from a web application.</text>
+      <text x="120" y="816" font-size="21" fill="#6b7975">(5 marks)</text>
+    </g>
+
+    <g>
+      <rect x="90" y="880" width="1020" height="160" rx="12" fill="#ffffff" stroke="#dfe7e4" stroke-width="2"/>
+      <text x="120" y="928" font-family="Georgia, 'Times New Roman', serif" font-size="27" fill="#16221f">Q3. Trace binary search on 1–100 for 42.</text>
+      <text x="120" y="972" font-size="21" fill="#6b7975">Show every midpoint. How many comparisons?</text>
+      <text x="120" y="1006" font-size="21" fill="#6b7975">(6 marks)</text>
+    </g>
+
+    <g>
+      <rect x="90" y="1070" width="1020" height="160" rx="12" fill="#ffffff" stroke="#dfe7e4" stroke-width="2"/>
+      <text x="120" y="1118" font-family="Georgia, 'Times New Roman', serif" font-size="27" fill="#16221f">Q4. When does a hash table degrade to O(n)?</text>
+      <text x="120" y="1162" font-size="21" fill="#6b7975">Explain collisions and how resizing helps.</text>
+      <text x="120" y="1196" font-size="21" fill="#6b7975">(4 marks)</text>
+    </g>
+
+    <g>
+      <rect x="90" y="1260" width="1020" height="160" rx="12" fill="#ffffff" stroke="#dfe7e4" stroke-width="2"/>
+      <text x="120" y="1308" font-family="Georgia, 'Times New Roman', serif" font-size="27" fill="#16221f">Q5. Design a student record store.</text>
+      <text x="120" y="1352" font-size="21" fill="#6b7975">Choose a structure, justify the trade-offs, state the operations.</text>
+      <text x="120" y="1386" font-size="21" fill="#6b7975">(8 marks)</text>
+    </g>
+  </g>
+
+  <text x="90" y="1490" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#85938f">Total: 26 marks · Suggested time: 45 minutes</text>
+  <rect x="90" y="1510" width="1020" height="2" fill="#dfe7e4"/>
+  <text x="90" y="1552" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#85938f">Shared on OpenNote · Sample preview</text>
+  <text x="1110" y="1552" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#85938f">3 / 3</text>
+</svg>
